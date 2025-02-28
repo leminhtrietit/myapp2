@@ -8,6 +8,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+        
         <link rel="icon" href="public/assets/images/logo.png" type="image/x-icon" />
         <link rel="stylesheet" href="{{ asset('public/assets/css/animate.css') }}">
         <link rel="stylesheet" href="public/assets/css/owl.carousel.min.css">
@@ -15,8 +19,6 @@
         <link rel="stylesheet" href="public/assets/css/magnific-popup.css">
         <link rel="stylesheet" href="public/assets/css/flaticon.css">
         <link rel="stylesheet" href="public/assets/css/style_detail.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
-
     </head>
     <body>
 
@@ -25,8 +27,6 @@
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-        
         <x`!-- Main Content -->
             <div id="content">
 
@@ -167,6 +167,8 @@
 
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+
+    
     <script src="public/assets/js/jquery.min.js"></script>
     <script src="public/assets/js/jquery-migrate-3.0.1.min.js"></script>
     <script src="public/assets/js/popper.min.js"></script>
@@ -181,9 +183,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="public/assets/js/google-map.js"></script>
     <script src="public/assets/js/main.js"></script>
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
     <script>
