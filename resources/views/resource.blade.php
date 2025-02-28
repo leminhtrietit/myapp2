@@ -8,16 +8,13 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="Assets/images/logo.png" type="image/x-icon" />
-
-        <link rel="stylesheet" href="Assets/css/animate.css">
-
-        <link rel="stylesheet" href="Assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="Assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="Assets/css/magnific-popup.css">
-
-        <link rel="stylesheet" href="Assets/css/flaticon.css">
-        <link rel="stylesheet" href="Assets/css/style_detail.css">
+        <link rel="icon" href="public/assets/images/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="{{ asset('public/assets/css/animate.css') }}">
+        <link rel="stylesheet" href="public/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="public/assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="public/assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="public/assets/css/flaticon.css">
+        <link rel="stylesheet" href="public/assets/css/style_detail.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
 
     </head>
@@ -36,7 +33,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.php">MT<span>solution</span></a>
+			<a class="navbar-brand" href="{{ route('home') }}">MT<span>solution</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -47,7 +44,7 @@
 					<!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li> -->
 					<!-- <li class="nav-item"><a href="index.php?controller=tools" class="nav-link">Tools</a></li> -->
 					 <li class="nav-item"><a href="{{ route('resource.index') }}" class="nav-link">Download</a></li>
-					 <!-- <li class="nav-item"><a href="login.php" class="nav-link"><img src="Assets/images/logo_mau_sv.png" alt="Sao Viet" width="30"></a></li> -->
+					 <!-- <li class="nav-item"><a href="login.php" class="nav-link"><img src="assets/images/logo_mau_sv.png" alt="Sao Viet" width="30"></a></li> -->
 
 					<!--<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
@@ -170,20 +167,20 @@
 
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-    <script src="Assets/js/jquery.min.js"></script>
-    <script src="Assets/js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="Assets/js/popper.min.js"></script>
-    <script src="Assets/js/bootstrap.min.js"></script>
-    <script src="Assets/js/jquery.easing.1.3.js"></script>
-    <script src="Assets/js/jquery.waypoints.min.js"></script>
-    <script src="Assets/js/jquery.stellar.min.js"></script>
-    <script src="Assets/js/owl.carousel.min.js"></script>
-    <script src="Assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="Assets/js/jquery.animateNumber.min.js"></script>
-    <script src="Assets/js/scrollax.min.js"></script>
+    <script src="public/assets/js/jquery.min.js"></script>
+    <script src="public/assets/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="public/assets/js/popper.min.js"></script>
+    <script src="public/assets/js/bootstrap.min.js"></script>
+    <script src="public/assets/js/jquery.easing.1.3.js"></script>
+    <script src="public/assets/js/jquery.waypoints.min.js"></script>
+    <script src="public/assets/js/jquery.stellar.min.js"></script>
+    <script src="public/assets/js/owl.carousel.min.js"></script>
+    <script src="{{ asset('public/assets/js/jquery.magnific-popup.min.js') }}"></script>    
+    <script src="public/assets/js/jquery.animateNumber.min.js"></script>
+    <script src="public/assets/js/scrollax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="Assets/js/google-map.js"></script>
-    <script src="Assets/js/main.js"></script>
+    <script src="public/assets/js/google-map.js"></script>
+    <script src="public/assets/js/main.js"></script>
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />

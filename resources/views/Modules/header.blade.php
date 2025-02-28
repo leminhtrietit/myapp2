@@ -13,7 +13,7 @@
 					<!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li> -->
 					<!-- <li class="nav-item"><a href="index.php?controller=tools" class="nav-link">Tools</a></li> -->
 					 <li class="nav-item"><a href="{{ route('resource.index') }}" class="nav-link">Download</a></li>
-					 <!-- <li class="nav-item"><a href="login.php" class="nav-link"><img src="Assets/images/logo_mau_sv.png" alt="Sao Viet" width="30"></a></li> -->
+					 <!-- <li class="nav-item"><a href="login.php" class="nav-link"><img src="assets/images/logo_mau_sv.png" alt="Sao Viet" width="30"></a></li> -->
 
 					<!--<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
