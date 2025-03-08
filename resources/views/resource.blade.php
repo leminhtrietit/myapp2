@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="assets/images/logo_nen.png" type="image/x-icon" />
+        <link rel="icon" href="assets/images/logo_tron.png" type="image/x-icon" />
         <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
@@ -31,7 +31,10 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="{{ route('home') }}">MT<span>solution</span></a>
+			<a class="navbar-brand" href="{{ route('home') }}">
+            <img src="{{ asset('assets/images/logo.png') }}" alt="MinhTrietEras" height="40">
+
+            </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -111,7 +114,9 @@
                 <div class="row mb-5">
                     <div class="col-md">
                         <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-footer-logo">MT<span>solution</span></h2>
+                            <div class="ftco-footer-logo">
+                            <img src="{{ asset('assets/images/logo_trang.png') }}" alt="MinhTrietEras" height="60">
+                            </div>
                             <p>
                                 All your need!
                             </p>
@@ -130,7 +135,7 @@
                             <h2 class="ftco-heading-2">Have a Questions?</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map marker"></span><span class="text">Tan Binh, Ho Chi Minh</span></li>
+                                <li><a href="https://maps.app.goo.gl/r1HVi3nZPJc9iqdc8"><span class="icon fa fa-map marker"></span><span class="text">District 7, Ho Chi Minh</span></a></li>
                                     <li><a href="tel:+84946426536"><span class="icon fa fa-phone"></span><span class="text">+84 946 426 536</span></a></li>
                                     <li><a href="mailto:contact@leminhtriet.com"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">contact@leminhtriet.com</span></a></li>
                                 </ul>
